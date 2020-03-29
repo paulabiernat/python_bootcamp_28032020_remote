@@ -6,9 +6,12 @@ if operation == "+" :
     print(f" Wynik {number_1 + number_2}")
 elif operation == "-" :
     print(f" Wynik: {number_1 - number_2}")
-elif operation == "/" :
-    print(f" Wynik: {number_1 / number_2}")
-elif operation == "%" :
-    print(f" Wynik : {number_1 % number_2}")
+elif operation == "/":
+    if number_2 == 0:
+        print("nie dzieli sie przez zero")
+    else:
+        print(f" Wynik: {number_1 / number_2}")
+elif operation == "*" :
+    print(f" Wynik : {number_1 * number_2}")
 else:
     print("niestey, operacja niemozliwa")
