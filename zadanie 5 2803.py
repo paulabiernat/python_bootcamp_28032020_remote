@@ -4,7 +4,7 @@ dystans = float(input("dystans : "))
 cena = float(input("cena paliwa: "))
 spalanie = float(input("Podaj spalanie: "))
 
-koszt = spalanie * cena * (dystans /100)
+koszt = spalanie * cena * dystans /100
 print(koszt)
 
 

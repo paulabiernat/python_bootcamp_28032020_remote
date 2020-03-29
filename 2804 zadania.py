@@ -14,7 +14,9 @@ expected = """
 imie i nazwisko: Jan Kowalski
 rok urodzenia : 1950
 zawod: hydraulik
+
 """
+
 assert result == expected
 print(result)
 
