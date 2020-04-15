@@ -16,5 +16,4 @@ while len(elementy) < 11:
     print(elementy)
 
 
-print(sum([1, 2, 3, 4, 6]
-
+print(sum([1, 2, 3, 4, 6])
