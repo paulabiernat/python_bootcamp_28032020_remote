@@ -20,3 +20,15 @@ if "c" in zrodla:
     print(zrodla["c"])
 else:
     print("brak")
+
+#Zad5.
+
+def foo(*args, **kwargs):
+    print("Pozycyjnych: ", len(args))
+    print("Kluczowych: ", len(kwargs))
+
+
+foo(10, 20, a=1, b=2, c=3)
+
+
+
