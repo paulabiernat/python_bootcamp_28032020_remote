@@ -11,3 +11,12 @@ for indeks_podstawienia in range(len(lista)):
     lista[indeks_podstawienia], lista[indeks_min_wartosci] = lista[indeks_min_wartosci], lista[indeks_podstawienia]
 print(lista)
 assert lista == [0, 1, 2, 3, 4, 6, 8, 9]
+
+#zad4.
+
+zrodla = {"a": 10, "b":30}
+
+if "c" in zrodla:
+    print(zrodla["c"])
+else:
+    print("brak")
