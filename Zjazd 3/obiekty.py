@@ -24,3 +24,5 @@ print(id(m), id(m2))
 print(m.brand == m2.brand)
 
 m.wlacz()
+
+
