@@ -10,13 +10,13 @@ if text == "ala"
 
 """
 
-x=7
+x=5
 if x > 10:
-    print("wiekszy")
+    print("wiekszy od 10")
 elif x % 2 == 0:
     print("parzysty")
 elif x % 3 == 0:
     print("podzielny przez 3")
 else:
-    print("zaden nie jest pelniony")
+    print("zaden warunek nie jest pelniony")
 print("koniec")

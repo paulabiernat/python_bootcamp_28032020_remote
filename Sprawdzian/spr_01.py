@@ -31,4 +31,11 @@ def foo(*args, **kwargs):
 foo(10, 20, a=1, b=2, c=3)
 
 
+def power(a, b=2):
+    licz = a ** b
+    return licz
+
+
+print(power(2, 3))
+print(power(4))
 

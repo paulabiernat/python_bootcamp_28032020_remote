@@ -10,3 +10,6 @@ for y in "123":
 for miesiac in ["sty ", "lut ", "marz "]:
     for rok in [20, 21, 22]:
         print (miesiac + str(rok))
+elem = {"2": "on", "0":"ona", "3":"kasia"}
+for element in elem:
+    print(element)

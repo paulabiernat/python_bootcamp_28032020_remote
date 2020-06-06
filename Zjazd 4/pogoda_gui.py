@@ -10,7 +10,6 @@ def get_report():
     rep = report(weather, location_name)
     wynik.configure(text=rep)
 
-
 root = tkinter.Tk()
 a_label = tkinter.Label(master=root, text="Miasto")
 a_label.pack()
@@ -20,6 +19,7 @@ wynik_labl = tkinter.Label(master=root, text="Dane o pogodzie: ")
 wynik = tkinter.Label(master=root, text="")
 wynik_labl.pack()
 wynik.pack()
+
 
 
 submit = tkinter.Button(master=root, text="Znajdz", command=get_report)

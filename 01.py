@@ -13,4 +13,4 @@ firma = "alx"
 print("witaj na szkoleniach: "+firma)
 
 ile =10
-print("do zaplaty ile: "+str(ile))
+rint("do zaplaty ile: "tr(ile))

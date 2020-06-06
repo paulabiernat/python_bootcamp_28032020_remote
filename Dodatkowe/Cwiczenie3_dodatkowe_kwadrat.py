@@ -5,3 +5,5 @@ print(x * "*")
 for i in range (2,x):
     print(f'*{" " * (x-2)}*')
 print(x * "*")
+iast_logout = {}
+user_total_time = {}
